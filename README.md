@@ -22,6 +22,10 @@ The folder `introduction` contains basic programs to learn and pratice **C++ syn
 
 The folder `memory` contains programs to learn about **pointers** and **dynamic memory**.
 
+# :first_quarter_moon: ADTs - Abstract Data Types
+
+The folder `abstractDataTypes` contains programs to learn about **adts**, **structs** and **good practices** when developing definitions and implementations.
+
 <hr />
 
 Organized with [Commitizen](https://github.com/commitizen/cz-cli)
