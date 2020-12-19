@@ -26,6 +26,10 @@ The folder `memory` contains programs to learn about **pointers** and **dynamic 
 
 The folder `abstractDataTypes` contains programs to learn about **adts**, **structs** and **good practices** when developing definitions and implementations.
 
+# :waxing_gibbous_moon: STL - Standard Template Library
+
+The folder `standardTemplateLibrary` contains programs to learn about **STL**, the main C++ library to work with **containers**, **iterators** and **algorithms**.
+
 <hr />
 
 Organized with [Commitizen](https://github.com/commitizen/cz-cli)
