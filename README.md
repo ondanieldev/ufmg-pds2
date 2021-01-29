@@ -34,6 +34,10 @@ The folder `abstractDataTypes` contains programs to learn about **adts**, **stru
 
 The folder `standardTemplateLibrary` contains programs to learn about **STL**, the main C++ library to work with **containers**, **iterators** and **algorithms**.
 
+# :waxing_crescent_moon: POO Basic
+
+The folder `poo_basic` contains all programs developed in the third module of the course, such as: **attributes**, **methods**, **encapsulation**, **inheritance** and **polimorfism**.
+
 <hr />
 
 Organized with [Commitizen](https://github.com/commitizen/cz-cli)
