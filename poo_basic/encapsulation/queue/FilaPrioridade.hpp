@@ -45,7 +45,6 @@ class FilaPrioridade {
     void print();
   private:
     No *cabeca = nullptr; /// Ponteiro para o primeiro elemento da lista (as vezes chamado de cabeça) 
-    No *cauda = nullptr; /// Ponteiro para o último elemento da lista (as vezes chamado de cauda) 
 	  int tamanho = 0;
 };
 

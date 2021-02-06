@@ -3,10 +3,11 @@
 FilaPrioridade::FilaPrioridade() {}
 
 void FilaPrioridade::inserir(int prioridade, int dado) {
+  this->tamanho++;
+
   // fila está vazia -> novo nó é a cabeça
   if (this->cabeca == nullptr) {
     this->cabeca = new No(prioridade, dado, nullptr);
-    this->tamanho++;
     return;
   }
 
@@ -14,7 +15,6 @@ void FilaPrioridade::inserir(int prioridade, int dado) {
   if (prioridade < this->cabeca->getPrioridade()) {
     No* antigaCabeca = this->cabeca;
     this->cabeca = new No(prioridade, dado, antigaCabeca);
-    this->tamanho++;
     return;
   }
 
@@ -29,7 +29,6 @@ void FilaPrioridade::inserir(int prioridade, int dado) {
       )
     ) {
       atual->setProximo(new No(prioridade, dado, atual->getProximo()));
-      this->tamanho++;
       return;
     }
     atual = atual->getProximo();
