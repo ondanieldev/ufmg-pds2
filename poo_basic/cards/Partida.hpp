@@ -7,8 +7,9 @@
 
 using namespace std;
 
-class Partida {
-	
+class Partida
+{
+
 private:
 	Jogador *_jogadores;
 	int _num_jogadores = 0;
@@ -16,17 +17,16 @@ private:
 	int _atualSize = 0;
 
 public:
-
 	Partida(int num_jogadores);
 	~Partida();
 	void addJogadorCarta(string nomeJogador, int numero_pontos_carta, string naipe);
-	
+
 	int getNumJogadores();
 	int getNumAtualJogadores();
-	void setJogadores(Jogador* jogadores);
-	Jogador* getJogadores();
+	void setJogadores(Jogador *jogadores);
+	Jogador *getJogadores();
 	Jogador getCampeao();
-	Jogador* getJogadoresOrdenados();
+	Jogador *getJogadoresOrdenados();
 	void imprimeJogadoresOrdenados();
 };
 
