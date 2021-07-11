@@ -38,6 +38,16 @@ The folder `standardTemplateLibrary` contains programs to learn about **STL**, t
 
 The folder `poo_basic` contains all programs developed in the third module of the course, such as: **attributes**, **methods**, **encapsulation**, **inheritance** and **polimorfism**.
 
+# :first_quarter_moon: POO Advanced
+
+The folder `poo_advanced` contains all programs developed in the fourth module of the course, such as: **overflow**, **polimorfism**, **polygons** and **ring arrays**.
+
+# :waxing_gibbous_moon: Correct Programs
+
+The folder `correct_programs` contains all programs developed in the fiveth module of the course.
+
+# :full_moon: Almost 100 in this subject!
+
 <hr />
 
 Organized with [Commitizen](https://github.com/commitizen/cz-cli)
